@@ -1,9 +1,29 @@
-export declare namespace AppTypes {
+export declare namespace TypeModule {
     interface User {
-        id: number;
+        id: string;
         name: string;
-        email: string;
-        isActive: boolean;
+        lastname: string;
+        number: string;
+        address: Address;
+        friends: Friend[];
+        articles: Articles[];
+    }
+    interface Address {
+        country: string;
+        province: string;
+        town: string;
+    }
+    interface Friend {
+        id: string;
+        name: string;
+        lastname: string;
+        number: string;
+    }
+    interface Articles {
+        id: string;
+        productname: string;
+        price: number;
+        category: string;
     }
     interface Product {
         id: number;
