@@ -44,7 +44,7 @@ c'est sur cette page où je serai entrain d'assigner les tâches pour signifier 
 
 # 1.4. Serie de 5 Exercices Projects: Développe,ent Frontend
 
--[ project 1: création d'ine Page d'accueil statique reponsive => sera fait par __*victor*__ ] 
+- [ project 1: création d'ine Page d'accueil statique reponsive => sera fait par __*victor*__ ] 
 ```js
     // le projet sera soit fait en simple HTML CSS ET TS
     // ***** Les compentences à avoir en css ***********:
@@ -103,19 +103,19 @@ c'est sur cette page où je serai entrain d'assigner les tâches pour signifier 
    /* faites de recherche sur cela  */
 ```
 
--[ project 2: galerie d'images interactives => sera fait par __*franck*__ ] 
--[ project 3: formulaire de contact avec validation  => sera fait par __*franck*__ ] 
--[ project 4: Mini-jeu de deviner les nombres  => sera fait par __*dan*__ ] 
--[ project 5: consommation d'une API publique avec fetch   => sera fait par __*dan*__ ] 
+- [ project 2: galerie d'images interactives => sera fait par __*franck*__ ] 
+- [ project 3: formulaire de contact avec validation  => sera fait par __*franck*__ ] 
+- [ project 4: Mini-jeu de deviner les nombres  => sera fait par __*dan*__ ] 
+- [ project 5: consommation d'une API publique avec fetch   => sera fait par __*dan*__ ] 
 ```js
     // maitrise de promesses en developpement web 
     // maitrise de async await en ES6
     // maitrise dde pagination en requéte
 
 ```
--[ project 6: implementation d'une carrousel d'images / slider images  => sera fait par __*victor*__ ]
--[ project 7: implementation menu navigateur dynamic/ dropdwom  => sera fait par __*franck*__ ]
--[ project 8: systeme de filre cote client   => sera fait par __*victor*__ ] 
+- [ project 6: implementation d'une carrousel d'images / slider images  => sera fait par __*victor*__ ]
+- [ project 7: implementation menu navigateur dynamic/ dropdwom  => sera fait par __*franck*__ ]
+- [ project 8: systeme de filre cote client   => sera fait par __*victor*__ ] 
 ```js
     // maîtrise de tableau(array) en js 
     const array = [1,3,2,43,4,3,3]
@@ -183,8 +183,8 @@ c'est sur cette page où je serai entrain d'assigner les tâches pour signifier 
     console.log(lesetudiants)
 ```
 
--[ project 9: implementation du mode sombre   => sera fait par __*dan*__ ] 
--[ project 9: bar de progression de defilement ( scroll progre bar)   => sera fait par __*dan*__ ] 
+- [ project 9: implementation du mode sombre   => sera fait par __*dan*__ ] 
+- [ project 9: bar de progression de defilement ( scroll progre bar)   => sera fait par __*dan*__ ] 
 
 
 # NB: CELUI QUI TERMINE AVANT LES AUTRE EST DANS L'OBLIGATION D'AIDER LES AUTRES OU SI TON COEQUIPIER TE DEMANDE DE L'AIDE TU ES DANS L'OBLIGATION DE L'AIDER POUR FINIR A TEMPS, 
