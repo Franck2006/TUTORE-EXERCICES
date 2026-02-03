@@ -11,7 +11,8 @@
     "target": "ES6", //esnext
     "types": [],
     // For nodejs:
-    // "lib": ["esnext"],
+    "lib": ["dom", "es2017"],
+    
     // "types": ["node"],
     // and npm install -D @types/node
     // "outFile": "./dist/bundle.js",

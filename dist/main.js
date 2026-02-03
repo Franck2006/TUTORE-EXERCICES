@@ -92,5 +92,8 @@ const addeduser = users.map(({ articles }) => {
     return Object.assign(Object.assign({}, articles), { total_price: total.toFixed(2) });
 });
 console.log("added users ", addeduser);
+const panier = ["Pomme", "Banane", "Fraise"];
+const aDesPommes = panier.includes("Pomme"); // OUI -> true
+const aDesCerises = panier.includes("Cerise"); // NON -> false
 export {};
 //# sourceMappingURL=main.js.map
