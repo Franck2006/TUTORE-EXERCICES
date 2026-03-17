@@ -7,10 +7,149 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline text-blue-300">fomr,d,d</h1>
-    <!-- celui c'est pour la liaison de ts et HTMl  -->
-     <p>hello</p>
-    <script type="module" src="../dist/main.js"></script>
+    <header>
+        <div class="logo">
+            <p><span>LO</span>GO</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#about_us">A propos</a></li>
+            <li><a href="#products">Produits</a></li>
+            <li><a href="#arrivages">Arrivages</a></li>
+            <li><a href="#contact">Contactez nous</a></li>
+        </ul>
 
+
+        <div class="toggle_menu"></div>
+    </header>
+
+    <section id="home">
+        <div class="left">
+          <h1>Bienvenu sur notre site web</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sequi eveniet sed quidem reprehenderit libero officiis.</p>
+        </div>
+        <div class="right">
+            <img src="./images/images (4).jpg">
+        </div>
+    </section>
+
+    <section id="about_us">
+      <h2 class="title">A propos de nous</h2>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse aliquam laboriosam placeat ipsam mollitia tempora ipsum, possimus quae repudiandae, minus excepturi quaerat reprehenderit animi ut cum doloremque repellat saepe?</h4>
+      <div class="about">
+        <div class="info">
+        <img src="./images/images (4).jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dicta hic quo quam, eaque debitis nesciunt minus illum voluptatem sit natus beatae. Doloribus vitae cupiditate adipisci quae quod, qui mollitia!</p>
+        <a href="#">Lire plus</a>
+        </div>
+         <div class="info">
+        <img src="./images/images (4).jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dicta hic quo quam, eaque debitis nesciunt minus illum voluptatem sit natus beatae. Doloribus vitae cupiditate adipisci quae quod, qui mollitia!</p>
+        <a href="#">Lire plus</a>
+        </div>
+        <div class="info">
+        <img src="./images/images (4).jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dicta hic quo quam, eaque debitis nesciunt minus illum voluptatem sit natus beatae. Doloribus vitae cupiditate adipisci quae quod, qui mollitia!</p>
+        <a href="#">Lire plus</a>
+        </div>
+         <div class="info">
+        <img src="./images/images (4).jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dicta hic quo quam, eaque debitis nesciunt minus illum voluptatem sit natus beatae. Doloribus vitae cupiditate adipisci quae quod, qui mollitia!</p>
+        <a href="#">Lire plus</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <h2 class="title">Nos Produits</h2>
+      <h4 class="mini_title">Produits les plus populaires</h4>
+      <div class="produits">
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+      </div>
+      <div class="button">
+      <a href="#" id="all_products">Voir plus</a>
+      </div>
+    </section>
+
+    <section id="arrivages">
+      <h2 class="title">Nos Arrivages</h2>
+      <div class="produits">
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+        <div class="element">
+          <img src="./images/images (4).jpg">
+          <p>Produit</p>
+          <h2>$50.99</h2>
+          <a href="#">Acheter</a>
+        </div>
+      </div>
+        <div class="button">
+          <a href="#" id="all_new_products">Voir plus</a>
+        </div>
+    </section>
+
+    <section id="contact">
+    <div class="contact-container">
+        
+        <div class="contact-info">
+            <h2>Contactez-nous</h2>
+            <ul class="info-list">
+                <li><img src="./images/pin.png" width="20px" height="20px"> 123 avenue du Web</li>
+                <li><img src="./images/call.png" width="20px" height="20px">  +243 888 9999 888</li>
+                <li><img src="./images/email.png" width="20px" height="20px"> contact@monsite.com</li>
+            </ul>
+        </div>
+
+        <form class="contact-form">
+            <div class="input-group">
+                <input type="text" placeholder="Votre Nom" required>
+                <input type="email" placeholder="Votre Email" required>
+              </div>
+            <input type="text" placeholder="Sujet">
+            <textarea placeholder="Votre message..." rows="5"></textarea>
+            <button type="submit" id="btn-envoyer">Envoyer le message</button>
+        </form>
+
+    </div>
+</section>
+
+      <script>
+          var small_menu = document.querySelector('.toggle_menu')
+          var menu = document.querySelector('.menu')
+
+          small_menu.onclick = function(){
+               small_menu.classList.toggle('active');
+               menu.classList.toggle('responsive');
+          }
+      </script>
+
+    <script type="module" src="../dist/main.js"></script>
   </body>
 </html>

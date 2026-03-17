@@ -107,7 +107,9 @@ const addeduser = users.map(({articles}) =>{
 console.log("added users ",addeduser)
 
 
-const panier: string[] = ["Pomme", "Banane", "Fraise"];
+let panier: string[] = ["Pomme", "Banane", "Fraise"];
 
 const aDesPommes = panier.includes("Pomme");  // OUI -> true
 const aDesCerises = panier.includes("Cerise"); // NON -> false
+console.log(aDesCerises, aDesPommes)
+
